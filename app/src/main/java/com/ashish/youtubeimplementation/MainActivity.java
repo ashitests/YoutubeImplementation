@@ -26,6 +26,8 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
         youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view);
         youTubeView.initialize(Config.YOUTUBE_API_KEY, this);
 
+        //Hello How Are You???
+
         //advance part after the basic ones
         playerStateChangeListener = new MyPlayerStateChangeListener();
         playbackEventListener = new MyPlaybackEventListener();
